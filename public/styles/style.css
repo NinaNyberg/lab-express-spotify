@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 25%;
+}
+
+.artist {
+}
+
+.row {
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.card {
+  margin: 1em;
+  align-items: center;
+  background-color: bisque;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: 0ch;
+}
